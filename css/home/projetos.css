@@ -1,0 +1,38 @@
+.projetos {
+    margin-bottom: 60px;
+}
+
+.projetos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.projetos-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.item span {
+    display: block;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item p {
+    color: #292929;
+}
+
+@media (max-width: 900px){
+    .projetos-item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .projetos-item {
+        grid-template-columns: 1fr;
+    }
+}
