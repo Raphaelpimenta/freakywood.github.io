@@ -1,0 +1,6 @@
+.carrossel{
+    /* background-color: blue; */
+    /* white-space: nowrap; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
